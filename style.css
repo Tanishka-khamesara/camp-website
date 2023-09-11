@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0%;
+}
+body{
+    background-color: #f2f2f2;
+}
+.font{
+    font-family: 'Poppins', sans-serif;
+}
+.bg{
+    background-image: url(https://koa.com/blog/images/family-camping-at-sunset.jpg?preset=heroimagecropped);
+    height: 100vh;
+    width:100%;
+    background-size: cover;
+    background-position: center 65%;
+    background-attachment: fixed;
+}
+
+.navbar{
+    background-color: rgb(51, 51, 51);
+    height: 12%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    position: fixed;
+}
+.logo>h2{
+    color:white;
+    font-size: 24px;
+    padding: 60px;
+}
+.options{
+    display: flex;
+    padding:60px;
+}
+.options>a{
+    padding: 18px;
+    font-size: 50px;
+    font-size: medium;
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+.blur{
+    background-color: rgba(0,0,0,0.2);
+    height: 100vh;
+    width: 100%;
+    margin-top: -9%;
+}
+.name{
+    color:white;
+    display: flex;  
+    align-items: center;
+    flex-direction: column;
+    margin: 9% 0;
+}
+.name>h1{
+    font-size: 59px;
+    font-weight: 700;
+    padding-top: 15%;
+    padding-bottom: 0.8%;
+}
+.name>p{
+    font-size: 20px;
+    width: 56%;
+    text-align: center;
+}
+.name>a>button{
+    border: none;
+    padding: 16px 30px;
+    background-color: white;
+    margin-top: 3.5%;
+    /* margin-left: -1%; */
+    border-radius: 4px;
+    font-size: 20px;
+    font-size: medium;
+    box-shadow: 0px 3px 10px 0px black;
+}
+.name>a{
+    margin:50px;
+}
+.second-page{
+    margin: 80px 0 50px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.description{
+    margin-left: 66px;
+    margin-right: 66px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card-1{
+    width:354px;
+    height:323px;
+    background-color: #ffffff;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.tent{
+    border-radius: 50%;
+    margin: 40px;
+    object-fit: cover;
+}
+.card-1>h3{
+    text-align: centre;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.card-1>p{
+    margin: 8px 20px;
+    text-align: center;
+}
+
+.us{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   margin-bottom: 60px;
+   margin-top: 70px;
+}
+.us>h2{
+    font-size: 32px;
+}
+.height{
+    margin-left: 12px;
+}
+.height>h3{
+    margin: 10px 0px;
+}
+.height>p{
+    margin-bottom: 30px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   margin-bottom: 60px;
+}
+.contact>h2{
+    font-size: 32px;
+}
+.contact-box {
+	margin: 60px 0 90px;
+	display: flex;
+	max-width: 1200px;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.box {
+	padding: 0 10px;
+	width: calc(100% / 2 - 50px);
+}
+
+.box p {
+	margin-bottom: 10px;
+}
+
+p svg {
+	fill: #7a7a7a;
+	margin-right: 10px;
+}
+
+form input {
+	height: 45px;
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 100%;
+	font-size: 16px;
+	outline: none;
+	border: 1px solid #bfbfbf;
+}
+
+form textarea {
+	padding: 10px;
+	width: 100%;
+	font-size: 16px;
+	height: 150px;
+	outline: none;
+	resize: vertical;
+	border: 1px solid #bfbfbf;
+}
+
+form button {
+	margin-top: 10px;
+	padding: 10px 20px;
+	font-size: 17px;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	background: #333;
+	transition: 0.2s ease;
+}
+
+form button:hover {
+	background: #525252;
+}
+#services{
+    padding-top:10px;
+}
+#aboutus{
+    padding-top: 10px;
+}
+#contact{
+    padding-top: 76px;
+}
